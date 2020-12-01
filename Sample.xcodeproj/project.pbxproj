@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25D2F7E0E71BF4AAFE680FC5 /* Pods_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC53DF3801BA040605F3C9 /* Pods_Sample.framework */; };
 		5210C5AA207A360F00BC0873 /* ImageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210C5A9207A360F00BC0873 /* ImageHeaderView.swift */; };
 		5210C5AC207A841A00BC0873 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210C5AB207A841A00BC0873 /* Tools.swift */; };
 		5210C5B3207A8BC200BC0873 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5210C5B5207A8BC200BC0873 /* Localizable.strings */; };
@@ -27,14 +28,14 @@
 		5265193B207994E4001A9425 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5265193A207994E4001A9425 /* HeaderTableViewCell.swift */; };
 		5265193D207994FC001A9425 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5265193C207994FC001A9425 /* ArticleTableViewCell.swift */; };
 		526519412079B8D5001A9425 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526519402079B8D5001A9425 /* ArticleViewController.swift */; };
-		AF41F33DE71E825CC1BE9AE2 /* Pods_SampleBFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8C711759999A356CC616D7 /* Pods_SampleBFM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46D15DC29758DCEF85FD6499 /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sample/Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
 		5210C5A9207A360F00BC0873 /* ImageHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHeaderView.swift; sourceTree = "<group>"; };
 		5210C5AB207A841A00BC0873 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		5210C5B4207A8BC200BC0873 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		526518CE20778BF9001A9425 /* SampleBFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleBFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		526518CE20778BF9001A9425 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		526518D120778BF9001A9425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		526518DA20778BF9001A9425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		526518DC20778BFA001A9425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,8 +55,9 @@
 		5265193C207994FC001A9425 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArticleTableViewCell.swift; path = Cell/ArticleTableViewCell.swift; sourceTree = "<group>"; };
 		526519402079B8D5001A9425 /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
 		6CF8AB801CFBC167C1FDF965 /* Pods-SampleBFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleBFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleBFM/Pods-SampleBFM.release.xcconfig"; sourceTree = "<group>"; };
-		AB8C711759999A356CC616D7 /* Pods_SampleBFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleBFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		782E5D852BBD33E4CED133AA /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sample/Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		B58DB7D8EF239F04D8BD4B6B /* Pods-SampleBFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleBFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleBFM/Pods-SampleBFM.debug.xcconfig"; sourceTree = "<group>"; };
+		FAEC53DF3801BA040605F3C9 /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF41F33DE71E825CC1BE9AE2 /* Pods_SampleBFM.framework in Frameworks */,
+				25D2F7E0E71BF4AAFE680FC5 /* Pods_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +75,7 @@
 		220AB6033348FA4B79640F84 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AB8C711759999A356CC616D7 /* Pods_SampleBFM.framework */,
+				FAEC53DF3801BA040605F3C9 /* Pods_Sample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,7 +83,7 @@
 		526518C520778BF9001A9425 = {
 			isa = PBXGroup;
 			children = (
-				526518D020778BF9001A9425 /* SampleBFM */,
+				526518D020778BF9001A9425 /* Sample */,
 				526518CF20778BF9001A9425 /* Products */,
 				F119DB74AAEBE043C1369AF8 /* Pods */,
 				220AB6033348FA4B79640F84 /* Frameworks */,
@@ -91,12 +93,12 @@
 		526518CF20778BF9001A9425 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				526518CE20778BF9001A9425 /* SampleBFM.app */,
+				526518CE20778BF9001A9425 /* Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		526518D020778BF9001A9425 /* SampleBFM */ = {
+		526518D020778BF9001A9425 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
 				526518EC20778E93001A9425 /* Models */,
@@ -108,7 +110,7 @@
 				526518D120778BF9001A9425 /* AppDelegate.swift */,
 				526518E120778BFA001A9425 /* Info.plist */,
 			);
-			path = SampleBFM;
+			path = Sample;
 			sourceTree = "<group>";
 		};
 		526518E720778E93001A9425 /* Resources */ = {
@@ -209,6 +211,8 @@
 			children = (
 				B58DB7D8EF239F04D8BD4B6B /* Pods-SampleBFM.debug.xcconfig */,
 				6CF8AB801CFBC167C1FDF965 /* Pods-SampleBFM.release.xcconfig */,
+				782E5D852BBD33E4CED133AA /* Pods-Sample.debug.xcconfig */,
+				46D15DC29758DCEF85FD6499 /* Pods-Sample.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -216,24 +220,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		526518CD20778BF9001A9425 /* SampleBFM */ = {
+		526518CD20778BF9001A9425 /* Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 526518E420778BFA001A9425 /* Build configuration list for PBXNativeTarget "SampleBFM" */;
+			buildConfigurationList = 526518E420778BFA001A9425 /* Build configuration list for PBXNativeTarget "Sample" */;
 			buildPhases = (
 				DBF732BBD974609609D3B634 /* [CP] Check Pods Manifest.lock */,
 				526518CA20778BF9001A9425 /* Sources */,
 				526518CB20778BF9001A9425 /* Frameworks */,
 				526518CC20778BF9001A9425 /* Resources */,
 				45662402BF28AA02506B336E /* [CP] Embed Pods Frameworks */,
-				7D3832AB3BBD068D4BC2AB10 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SampleBFM;
+			name = Sample;
 			productName = SampleBFM;
-			productReference = 526518CE20778BF9001A9425 /* SampleBFM.app */;
+			productReference = 526518CE20778BF9001A9425 /* Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -251,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 526518C920778BF9001A9425 /* Build configuration list for PBXProject "SampleBFM" */;
+			buildConfigurationList = 526518C920778BF9001A9425 /* Build configuration list for PBXProject "Sample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -264,7 +267,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				526518CD20778BF9001A9425 /* SampleBFM */,
+				526518CD20778BF9001A9425 /* Sample */,
 			);
 		};
 /* End PBXProject section */
@@ -289,36 +292,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SampleBFM/Pods-SampleBFM-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sample/Pods-Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sample/Pods-Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleBFM/Pods-SampleBFM-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7D3832AB3BBD068D4BC2AB10 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleBFM/Pods-SampleBFM-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sample/Pods-Sample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DBF732BBD974609609D3B634 /* [CP] Check Pods Manifest.lock */ = {
@@ -332,7 +315,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SampleBFM-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Sample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -511,7 +494,7 @@
 		};
 		526518E520778BFA001A9425 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B58DB7D8EF239F04D8BD4B6B /* Pods-SampleBFM.debug.xcconfig */;
+			baseConfigurationReference = 782E5D852BBD33E4CED133AA /* Pods-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,7 +513,7 @@
 		};
 		526518E620778BFA001A9425 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CF8AB801CFBC167C1FDF965 /* Pods-SampleBFM.release.xcconfig */;
+			baseConfigurationReference = 46D15DC29758DCEF85FD6499 /* Pods-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,7 +533,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		526518C920778BF9001A9425 /* Build configuration list for PBXProject "SampleBFM" */ = {
+		526518C920778BF9001A9425 /* Build configuration list for PBXProject "Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				526518E220778BFA001A9425 /* Debug */,
@@ -559,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		526518E420778BFA001A9425 /* Build configuration list for PBXNativeTarget "SampleBFM" */ = {
+		526518E420778BFA001A9425 /* Build configuration list for PBXNativeTarget "Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				526518E520778BFA001A9425 /* Debug */,

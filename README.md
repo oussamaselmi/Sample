@@ -1,9 +1,9 @@
-# Sample BFM TV - iOS
+# Sample - iOS
 
 L'application permet de récupération des informations d'actualité (Article,émission,édition...) 
 
 ## Started
-Dans le Sample BFM TV , j'ai mis en place deux méthodologies de récupération de donnnées.
+Dans le Sample , j'ai mis en place deux méthodologies de récupération de donnnées.
 1-Soit on récupère les données à l'ouverture, c'est-à-dire on bloque l'ouverture de l'application jusqu'à avoir des informations disponibles, c'est le mode Synchrone.
 2-Soit on charge la vue, et après on va charger les données avec un mode Asynchrone.
 
@@ -19,8 +19,7 @@ Bien évidemment l'utilisateur peut raffléchire à tout manuellement le program
 
 ## User Interface
 
-Inspirer de l'application disponblie actuelement sur le store. ( Navigation et graphique ) *[BFM TV](https://itunes.apple.com/fr/app/bfmtv-actualit%C3%A9s-en-direct/id325658560?mt=8)
-L'uitlisation de la charte graphique du BFM TV.
+Inspirer de l'application disponblie actuelement sur le store..
 
 
 ## Getting Started
